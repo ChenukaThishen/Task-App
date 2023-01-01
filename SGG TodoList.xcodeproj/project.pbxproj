@@ -10,12 +10,18 @@
 		214045DC2961901F00B475D2 /* SGG_TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045DB2961901F00B475D2 /* SGG_TodoListApp.swift */; };
 		214045DE2961901F00B475D2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045DD2961901F00B475D2 /* Persistence.swift */; };
 		214045E12961901F00B475D2 /* SGG_TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 214045DF2961901F00B475D2 /* SGG_TodoList.xcdatamodeld */; };
-		214045E32961901F00B475D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045E22961901F00B475D2 /* ContentView.swift */; };
+		214045E32961901F00B475D2 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045E22961901F00B475D2 /* TaskListView.swift */; };
 		214045E52961902000B475D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214045E42961902000B475D2 /* Assets.xcassets */; };
 		214045E92961902000B475D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214045E82961902000B475D2 /* Preview Assets.xcassets */; };
 		214045F32961902000B475D2 /* SGG_TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045F22961902000B475D2 /* SGG_TodoListTests.swift */; };
 		214045FD2961902000B475D2 /* SGG_TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045FC2961902000B475D2 /* SGG_TodoListUITests.swift */; };
 		214045FF2961902000B475D2 /* SGG_TodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214045FE2961902000B475D2 /* SGG_TodoListUITestsLaunchTests.swift */; };
+		2140460C2961939E00B475D2 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140460B2961939E00B475D2 /* FloatingButton.swift */; };
+		2140460F2961942100B475D2 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140460E2961942100B475D2 /* TaskEditView.swift */; };
+		21CB1E2B29619EAD00C1A365 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB1E2A29619EAD00C1A365 /* DateHolder.swift */; };
+		21CB1E2D2961A20700C1A365 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB1E2C2961A20700C1A365 /* TaskCell.swift */; };
+		21CB1E2F2961A2E100C1A365 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB1E2E2961A2E100C1A365 /* CheckBoxView.swift */; };
+		21CB1E322961A40900C1A365 /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB1E312961A40900C1A365 /* TaskItemExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 		214045DB2961901F00B475D2 /* SGG_TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGG_TodoListApp.swift; sourceTree = "<group>"; };
 		214045DD2961901F00B475D2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		214045E02961901F00B475D2 /* SGG_TodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SGG_TodoList.xcdatamodel; sourceTree = "<group>"; };
-		214045E22961901F00B475D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		214045E22961901F00B475D2 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		214045E42961902000B475D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		214045E62961902000B475D2 /* SGG_TodoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SGG_TodoList.entitlements; sourceTree = "<group>"; };
 		214045E82961902000B475D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		214045F82961902000B475D2 /* SGG TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SGG TodoListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		214045FC2961902000B475D2 /* SGG_TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGG_TodoListUITests.swift; sourceTree = "<group>"; };
 		214045FE2961902000B475D2 /* SGG_TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGG_TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2140460B2961939E00B475D2 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		2140460E2961942100B475D2 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		21CB1E2A29619EAD00C1A365 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		21CB1E2C2961A20700C1A365 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		21CB1E2E2961A2E100C1A365 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		21CB1E312961A40900C1A365 /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				214045DB2961901F00B475D2 /* SGG_TodoListApp.swift */,
-				214045DD2961901F00B475D2 /* Persistence.swift */,
-				214045E22961901F00B475D2 /* ContentView.swift */,
+				21CB1E302961A3B500C1A365 /* Model */,
+				2140460D296193E200B475D2 /* Views */,
 				214045E42961902000B475D2 /* Assets.xcassets */,
 				214045E62961902000B475D2 /* SGG_TodoList.entitlements */,
 				214045DF2961901F00B475D2 /* SGG_TodoList.xcdatamodeld */,
 				214045E72961902000B475D2 /* Preview Content */,
+				21CB1E2A29619EAD00C1A365 /* DateHolder.swift */,
 			);
 			path = "SGG TodoList";
 			sourceTree = "<group>";
@@ -133,6 +146,27 @@
 				214045FE2961902000B475D2 /* SGG_TodoListUITestsLaunchTests.swift */,
 			);
 			path = "SGG TodoListUITests";
+			sourceTree = "<group>";
+		};
+		2140460D296193E200B475D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2140460E2961942100B475D2 /* TaskEditView.swift */,
+				2140460B2961939E00B475D2 /* FloatingButton.swift */,
+				214045E22961901F00B475D2 /* TaskListView.swift */,
+				21CB1E2C2961A20700C1A365 /* TaskCell.swift */,
+				21CB1E2E2961A2E100C1A365 /* CheckBoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21CB1E302961A3B500C1A365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				214045DD2961901F00B475D2 /* Persistence.swift */,
+				21CB1E312961A40900C1A365 /* TaskItemExtension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CB1E2B29619EAD00C1A365 /* DateHolder.swift in Sources */,
+				21CB1E322961A40900C1A365 /* TaskItemExtension.swift in Sources */,
 				214045E12961901F00B475D2 /* SGG_TodoList.xcdatamodeld in Sources */,
 				214045DC2961901F00B475D2 /* SGG_TodoListApp.swift in Sources */,
-				214045E32961901F00B475D2 /* ContentView.swift in Sources */,
+				2140460C2961939E00B475D2 /* FloatingButton.swift in Sources */,
+				21CB1E2F2961A2E100C1A365 /* CheckBoxView.swift in Sources */,
+				21CB1E2D2961A20700C1A365 /* TaskCell.swift in Sources */,
+				2140460F2961942100B475D2 /* TaskEditView.swift in Sources */,
+				214045E32961901F00B475D2 /* TaskListView.swift in Sources */,
 				214045DE2961901F00B475D2 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
